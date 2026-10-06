@@ -23,3 +23,15 @@ Software ecosystem ထဲဝင်ဖို့ လမ်းတစ်လမ်း
 “အပြင်မှာ ecosystem ကြီးတယ်” လို့ သိရုံနဲ့ မပြီးပါဘူး။ အဲဒီ ecosystem ထဲကို **ဘယ်တံခါးကနေ ဝင်မလဲ** ဆိုတာကို ကိုယ်တိုင် စမ်းကြည့်ဖို့ပါ။
 
 > Slide ထဲက links တွေက live links ဖြစ်လို့ original deck ကနေ တိုက်ရိုက်ဖွင့်ကြည့်နိုင်ပါတယ်။
+
+## Deeper: Participation Creates Serendipity
+
+The interesting thing about technical communities is that opportunities often appear indirectly. A documentation fix can introduce you to a maintainer. A short article can lead to a correction from someone with deeper knowledge. A meetup can expose you to a problem your current team never sees.
+
+The goal is not networking for its own sake. It is increasing the number of meaningful interactions you have with the ecosystem.
+
+### Start with a door you can actually open
+
+You do not need a major open-source feature or conference talk. Ask a precise question. Improve documentation. Reproduce a bug. Write a small technical note. Attend one meetup. Build one experiment.
+
+And when asking for help, give useful context: what you tried, what happened, how to reproduce it, and what you expected. Good participation makes collaboration easier and teaches you how technical communities work.
