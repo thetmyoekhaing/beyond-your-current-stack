@@ -41,16 +41,12 @@ Source code အကုန်မဖတ်ပါနဲ့။ File တစ်ဖိ�
 
 ##
 
-Experienced developers are not people who never get stuck. They are often people who are better at turning “I'm stuck” into useful questions.
+Developer ကောင်းတစ်ယောက်ဆိုတာ ဘယ်တော့မှ မပိတ်မိတဲ့သူမဟုတ်ပါဘူး။ မသိတဲ့အချိန်မှာ “ဘယ်လိုရှာရမလဲ” သိတဲ့သူပါ။
 
-Ask: What exactly failed? What changed? Can I reproduce it? Is it local or external? What does the official documentation say? Has someone reported the same behavior? Can I reduce it to a tiny example?
+ပြဿနာတစ်ခုတက်လာရင် answer တစ်ခုတည်းကို တန်းရှာမယ့်အစား မေးခွန်းသေးသေးလေးတွေ ခွဲကြည့်လို့ရပါတယ်။ ဘာက fail ဖြစ်တာလဲ။ ဘာပြောင်းသွားတာလဲ။ ပြန် reproduce လုပ်လို့ရလား။ Local problem လား၊ external dependency လား။ Official documentation က ဘာပြောထားလဲ။ အခြားသူတွေ ဒီလိုပြဿနာ ကြုံဖူးလား။ Minimal example တစ်ခုနဲ့ ခွဲစမ်းလို့ရလား။
 
-### Prefer primary evidence
+Search လုပ်တဲ့အခါ primary source ကို အရင်ကြည့်တာကောင်းပါတယ်။ Official documentation, source code, issue tracker, pull request နဲ့ discussion တွေက software က တကယ်ဘာလုပ်ဖို့ ရည်ရွယ်ထားလဲဆိုတာ နားလည်ဖို့ ပိုကောင်းပါတယ်။ Blog နဲ့ community post တွေကလည်း အသုံးဝင်ပါတယ်၊ ဒါပေမယ့် အဖြေကို verify ပြန်လုပ်သင့်ပါတယ်။
 
-A useful investigation order is often official documentation → source code → issue tracker → pull requests/discussions → reputable technical articles → community posts. Community knowledge can be excellent, but primary sources help verify what the software actually promises.
+Experiment လုပ်ရင်လည်း သေးသေးလေးလုပ်ပါ။ Queue ကို လေ့လာချင်ရင် message တစ်ခု ပို့ကြည့်ပါ။ Database feature တစ်ခုကို စမ်းချင်ရင် database သေးသေးတစ်ခုနဲ့ စမ်းပါ။ Observability ကို နားလည်ချင်ရင် request တစ်ခုကို trace လုပ်ကြည့်ပါ။
 
-### Make experiments tiny
-
-If you are evaluating a queue, send one message. If you are evaluating a database feature, create one small database. If you are evaluating observability, trace one request. The experiment should answer one question.
-
-That turns “learn technology X” into “can X solve this specific problem under these conditions?”
+“Technology X ကို သင်မယ်” ဆိုတာထက် “ဒီ problem ကို X က ဒီအခြေအနေမှာ ဖြေရှင်းပေးနိုင်လား” ဆိုတဲ့မေးခွန်းက ပိုအသုံးဝင်ပါတယ်။
