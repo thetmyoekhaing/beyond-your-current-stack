@@ -32,3 +32,23 @@ Project က မအောင်မြင်လည်း learning ရနိုင�
 > **Go build.**
 
 အဓိကက technology အားလုံးကို သိလာဖို့မဟုတ်ပါဘူး။ **ကိုယ့်လက်ရှိ stack ရဲ့အပြင်ကို သွားကြည့်ဖို့ မကြောက်တော့တာ** ဖြစ်ပါတယ်။
+
+## Deeper: Projects Compress Knowledge
+
+When concepts are learned separately, they can remain disconnected. A project forces them to interact. A tiny service can make HTTP, authentication, database design, errors, logging, deployment, and testing become parts of one system.
+
+Choose a project that is small enough to finish, unfamiliar enough to create questions, concrete enough to run, and constrained enough to prevent endless scope.
+
+Instead of “learn distributed systems,” build a tiny producer/consumer application. Instead of “learn observability,” instrument one service and follow one request. Instead of “learn Linux,” run a small service and inspect its process, network socket, logs, and resource usage.
+
+### Finish with a postmortem
+
+Write three lines:
+
+**I expected:** what you thought would happen.
+
+**I observed:** what actually happened.
+
+**I learned:** what changed in your mental model.
+
+The project may never become a product. That is fine. The real output is becoming more comfortable entering unfamiliar territory, investigating, building, and finishing.
