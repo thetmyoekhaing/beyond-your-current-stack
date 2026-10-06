@@ -24,7 +24,7 @@ Software ecosystem ထဲဝင်ဖို့ လမ်းတစ်လမ်း
 
 > Slide ထဲက links တွေက live links ဖြစ်လို့ original deck ကနေ တိုက်ရိုက်ဖွင့်ကြည့်နိုင်ပါတယ်။
 
-## Deeper: Participation Creates Serendipity
+##
 
 The interesting thing about technical communities is that opportunities often appear indirectly. A documentation fix can introduce you to a maintainer. A short article can lead to a correction from someone with deeper knowledge. A meetup can expose you to a problem your current team never sees.
 
