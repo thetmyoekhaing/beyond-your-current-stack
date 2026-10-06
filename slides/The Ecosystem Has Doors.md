@@ -26,12 +26,12 @@ Software ecosystem ထဲဝင်ဖို့ လမ်းတစ်လမ်း
 
 ##
 
-The interesting thing about technical communities is that opportunities often appear indirectly. A documentation fix can introduce you to a maintainer. A short article can lead to a correction from someone with deeper knowledge. A meetup can expose you to a problem your current team never sees.
+Software ecosystem ထဲမှာ opportunity တွေက တစ်ခါတလေ ကိုယ်မျှော်လင့်ထားတဲ့နေရာက မလာပါဘူး။ Documentation မှာ typo တစ်ခု ပြင်ရင်း maintainer တစ်ယောက်နဲ့ သိလာနိုင်ပါတယ်။ Technical article တစ်ပုဒ်ရေးပြီး ကိုယ်မသိသေးတဲ့အချက်ကို တစ်ယောက်က ပြန်ရှင်းပြပေးနိုင်ပါတယ်။ Meetup တစ်ခုသွားရင်း ကိုယ့်အလုပ်မှာ တစ်ခါမှ မတွေ့ဖူးတဲ့ problem တစ်ခုကို သိလာနိုင်ပါတယ်။
 
-The goal is not networking for its own sake. It is increasing the number of meaningful interactions you have with the ecosystem.
+ဒီဟာက networking လုပ်ဖို့ networking လုပ်တာ မဟုတ်ပါဘူး။ Ecosystem ထဲမှာ တကယ်ပါဝင်တဲ့အကြိမ်တွေ တိုးလာအောင် လုပ်တာပါ။
 
-### Start with a door you can actually open
+အကြီးကြီးစဖို့လည်း မလိုပါဘူး။ Documentation တစ်ကြောင်းပြင်ကြည့်ပါ။ Bug တစ်ခုကို reproduce လုပ်ပြီး issue ဖွင့်ကြည့်ပါ။ Precise question တစ်ခု မေးကြည့်ပါ။ Project သေးသေးတစ်ခု build လုပ်ကြည့်ပါ။ Meetup တစ်ခုကို သွားကြည့်ပါ။
 
-You do not need a major open-source feature or conference talk. Ask a precise question. Improve documentation. Reproduce a bug. Write a small technical note. Attend one meetup. Build one experiment.
+အကူအညီတောင်းတဲ့အခါလည်း “မရဘူး၊ ဘာလုပ်ရမလဲ” လို့ပဲ မေးတာထက် ဘာလုပ်ကြည့်ပြီးပြီလဲ၊ ဘာဖြစ်သွားလဲ၊ ဘယ်လို reproduce လုပ်လို့ရလဲ၊ ကိုယ်က ဘာမျှော်လင့်ထားလဲဆိုတာ ထည့်ပြောရင် collaboration က ပိုကောင်းလာပါတယ်။
 
-And when asking for help, give useful context: what you tried, what happened, how to reproduce it, and what you expected. Good participation makes collaboration easier and teaches you how technical communities work.
+Ecosystem ကို အပြင်ကနေကြည့်နေရုံနဲ့ တံခါးတွေကို မမြင်နိုင်ပါဘူး။ တစ်ခါတလေ တံခါးသေးသေးလေးတစ်ခုကို ကိုယ်တိုင်ဖွင့်ကြည့်မှ အနောက်မှာ ဘာတွေရှိလဲ သိလာပါတယ်။
