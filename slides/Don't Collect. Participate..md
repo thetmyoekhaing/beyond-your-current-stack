@@ -27,3 +27,17 @@ Learning လုပ်တဲ့အခါ **collecting** လုပ်နေတာ�
 ဒါကြောင့် slide ရဲ့ challenge က ရိုးရိုးလေးပါ — **ဒီ weekend မှာ ညာဘက်က action တစ်ခုတည်းကို ရွေးပြီး လုပ်ကြည့်ပါ။**
 
 Start here: `up-for-grabs.net`
+
+## Deeper: The Difference Is Feedback
+
+The biggest difference between consuming information and participating is feedback.
+
+A video can explain how a queue works. Running one teaches you about configuration, networking, serialization, retries, and shutdown behavior. A blog can explain open-source contribution. A small PR teaches repository conventions, tests, reviews, and maintainer expectations.
+
+### Turn consumption into a chain
+
+**Read → Run → Change → Break → Fix → Explain.**
+
+You do not need this process for every topic, but for things you care about, moving from passive consumption to active experimentation makes the learning much more durable.
+
+There is also a learning-collection trap: new courses, bookmarks, and roadmaps feel productive because they reduce uncertainty. The cure is to make one resource produce an artifact: a running demo, patch, benchmark, bug report, note, or finished project.
