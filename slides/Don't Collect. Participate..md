@@ -28,7 +28,7 @@ Learning လုပ်တဲ့အခါ **collecting** လုပ်နေတာ�
 
 Start here: `up-for-grabs.net`
 
-## Deeper: The Difference Is Feedback
+##
 
 The biggest difference between consuming information and participating is feedback.
 
