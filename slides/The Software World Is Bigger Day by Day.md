@@ -30,12 +30,10 @@ Editor, terminal, GitHub, feature flags, rollouts, documentation စတာတွ
 
 ##
 
-The categories on this slide are not isolated boxes. A simple user action can pass through UI, API, authentication, application logic, database, cache, background processing, storage, observability, and deployment. That is why broad awareness matters even when you specialize.
+Software ecosystem ကို ကြည့်တဲ့အခါ framework, database, cloud, DevOps, AI ဆိုပြီး သီးခြားအကွက်တွေလို မြင်ရလွယ်ပါတယ်။ တကယ်တမ်းမှာတော့ အဲဒီအရာတွေက တစ်ခုနဲ့တစ်ခု ချိတ်ဆက်နေပါတယ်။ User တစ်ယောက်က button တစ်ခုနှိပ်လိုက်တာက UI ကနေ API ကိုသွား၊ authentication ဖြတ်၊ application logic ထဲဝင်၊ database ကိုဖတ်၊ လိုအပ်ရင် cache သုံး၊ background job တစ်ခုတင်၊ ပြီးရင် monitoring နဲ့ deployment အထိ ဆက်သွားနိုင်ပါတယ်။
 
-Specialization is valuable; isolation is not. A mobile developer does not need to become a database administrator, but understanding latency, HTTP, caching, authentication, and storage makes mobile decisions better. A backend developer does not need to become a UI designer, but understanding how clients consume APIs improves API design.
+ဒါကြောင့် ကိုယ်က frontend developer ဖြစ်လို့ backend ကို မသိလို့ရတယ်ဆိုတာမျိုး မဟုတ်ပါဘူး။ Backend developer ဖြစ်လို့ UI ကို ကျွမ်းကျင်ဖို့လည်း မလိုပါဘူး။ ကိုယ့်အလုပ်နဲ့ ဆက်စပ်နေတဲ့ အနီးအနားက layer တွေ ဘာလုပ်ပေးတယ်ဆိုတာ သိထားရုံနဲ့တင် decision တွေ ပိုကောင်းလာပါတယ်။ Specialization က အရေးကြီးပေမယ့် isolation ကတော့ အားသာချက်မဟုတ်ပါဘူး။
 
-## Learn Concepts Before Products
+Technology တစ်ခုချင်းစီကို product name နဲ့ မစလေ့လာဘဲ concept နဲ့ စလေ့လာတာ ပိုခံပါတယ်။ “Data ကို ဘယ်မှာသိမ်းမလဲ”, “Request နှေးလာရင် ဘာလုပ်မလဲ”, “Service တစ်ခုကျသွားရင် ဘာဖြစ်မလဲ”, “System ကို ဘယ်လိုစောင့်ကြည့်မလဲ” ဆိုတဲ့မေးခွန်းတွေက product တွေပြောင်းသွားရင်တောင် မပြောင်းပါဘူး။
 
-Products change faster than concepts. The durable questions are: How is state stored? How is data transferred? What happens when a request is slow? What happens when a dependency fails? How do we observe the system? How do we deploy safely?
-
-Your map should become more detailed over time. First you know that Kubernetes exists. Later you understand orchestration. Later still you understand scheduling, service discovery, networking, health checks, rolling deployments, and failure recovery. Experience gives you a reason to zoom in.
+ဒီ map ကို တစ်ခါတည်း အပြည့်ဆွဲဖို့ မလိုပါဘူး။ ဒီနေ့ Kubernetes ဆိုတာ ရှိတယ်လို့ပဲ သိနိုင်ပါတယ်။ နောက်တစ်ချိန်မှာ orchestration ဆိုတာ ဘာလဲသိလာမယ်။ အဲဒီနောက် scheduling, service discovery, networking, health check တွေအထိ တဖြည်းဖြည်း zoom in လုပ်သွားနိုင်ပါတယ်။ Experience က ဘယ်နေရာကို ပိုနက်နက်လေ့လာသင့်လဲဆိုတာ ပြောပေးပါလိမ့်မယ်။
