@@ -32,18 +32,12 @@ Architecture ထဲကို box တစ်ခု ထပ်ထည့်တို�
 
 ##
 
-Architecture discussions should start with constraints rather than diagrams: latency, traffic volume, reliability, data size, deployment frequency, team size, security, cost, and failure tolerance.
+Architecture ကို စဉ်းစားတဲ့အခါ diagram ကို အရင်မဆွဲဘဲ constraint ကို အရင်ကြည့်တာ ပိုမှန်ပါတယ်။ Latency ဘယ်လောက်လိုလဲ၊ traffic ဘယ်လောက်ရှိလဲ၊ reliability ဘယ်လောက်လိုလဲ၊ data ဘယ်လောက်ကြီးလဲ၊ team က ဘယ်လောက်ရှိလဲ၊ security နဲ့ cost requirement ဘယ်လိုရှိလဲဆိုတာတွေက architecture ကို သတ်မှတ်ပေးပါတယ်။
 
-The same application can reasonably have different architectures at different scales because its constraints are different.
+Application တစ်ခုတည်းတောင် user ၁၀ ယောက်ရှိတဲ့အချိန်နဲ့ user သန်းချီလာတဲ့အချိန် architecture မတူနိုင်ပါတယ်။ ဒါဟာ အစက architecture မကောင်းလို့ မဟုတ်ဘဲ problem ရဲ့ constraint ပြောင်းသွားလို့ပါ။
 
-### Avoid scale theatre
+တစ်ခါတလေ future ကိုကြိုတွေးပြီး system ကို အရမ်းကြီးဆောက်မိတတ်ပါတယ်။ User မရှိသေးခင် service ၁၀ ခုခွဲတာ၊ Kubernetes ထည့်တာ၊ queue တွေ၊ cache တွေ၊ replica တွေ အများကြီးထားတာက impressive လို့ ထင်ရနိုင်ပေမယ့် operational cost ကိုပါ တိုးစေပါတယ်။
 
-Designing for an imaginary future is a common source of unnecessary complexity. A team with ten users does not automatically need ten services, Kubernetes, multiple replicas, queues, and caches.
+“System က slow ဖြစ်နေတယ်” ဆိုတာလည်း architecture ပြောင်းဖို့ လုံလောက်တဲ့ evidence မဟုတ်သေးပါဘူး။ ဘယ်နေရာမှာ slow ဖြစ်တာလဲ၊ database လား၊ network လား၊ CPU လား၊ external API လားဆိုတာ တိုင်းရပါမယ်။ p95 latency, throughput, error rate, resource usage, queue depth လို metric တွေက “ထင်တယ်” ဆိုတာကို “တိုင်းထားတယ်” ဖြစ်အောင် ပြောင်းပေးနိုင်ပါတယ်။
 
-The better approach is to design for the problem you actually have while leaving sensible paths for growth.
-
-### Measure before you add
-
-“It's slow” is not enough. Where is it slow? Is the bottleneck CPU, database I/O, network latency, serialization, an external API, or lock contention? Measurements such as p95 latency, throughput, error rate, resource utilization, and queue depth turn architecture arguments into engineering arguments.
-
-**Architecture should be explainable in terms of requirements and evidence.**
+Architecture ထဲမှာ component တစ်ခု ထပ်ထည့်တိုင်း “ဘာကြောင့်?” ဆိုတဲ့အဖြေ ရှိသင့်ပါတယ်။ Problem နဲ့ evidence မရှိဘဲ complexity တိုးတာက engineering maturity မဟုတ်ပါဘူး။
