@@ -29,12 +29,10 @@ Slide ထဲက **“two you almost never need on day one”** ဆိုတာ�
 
 ##
 
-A technology is usually a bundle of decisions. A queue can give you asynchronous processing while introducing retries, ordering, duplicate delivery, or dead-letter handling. A cache can reduce latency while creating another consistency problem. A database gives durable state while introducing migrations, indexes, backups, transactions, and operational work.
+Technology တစ်ခုချင်းစီမှာ သူ့နောက်က problem တစ်ခုနဲ့ trade-off တချို့ ရှိတတ်ပါတယ်။ Queue တစ်ခုက background work ကို request ကနေ ခွဲပေးနိုင်ပေမယ့် retry, ordering, duplicate message, failure handling စတာတွေကို ထပ်စဉ်းစားရနိုင်ပါတယ်။ Cache က response မြန်စေနိုင်ပေမယ့် data နှစ်နေရာမှာ ရှိလာတဲ့အတွက် consistency ကို ထပ်စဉ်းစားရပါတယ်။ Database က data ကို တည်ငြိမ်စွာသိမ်းပေးနိုင်ပေမယ့် migration, index, backup, transaction စတာတွေကိုလည်း တာဝန်ယူရပါတယ်။
 
-So learn both the capability and the cost.
+ဒါကြောင့် technology တစ်ခုကို လေ့လာတဲ့အခါ “သူက ဘာလုပ်နိုင်လဲ” တစ်ခုတည်း မမေးဘဲ “သူမရှိခင် ဘာက ခက်နေတာလဲ” လို့ မေးကြည့်တာ အရမ်းအသုံးဝင်ပါတယ်။ CDN ဆိုတာ global content delivery ကို လွယ်စေဖို့၊ load balancer ဆိုတာ traffic ခွဲပေးဖို့၊ CI ဆိုတာ code ကို repeatable ဖြစ်အောင် စစ်ပြီး deploy လုပ်ဖို့ ပေါ်လာတာမျိုးပါ။
 
-A useful question is: **What became difficult before this tool existed?** A CDN makes global content delivery easier. A load balancer makes traffic distribution easier. CI makes repeatable validation and delivery easier.
+ပြီးရင် တစ်ဖက်ပြန်ကြည့်ရပါမယ်။ “ဒီ tool ကို ထည့်လိုက်ရင် ဘာအသစ်တွေ ခက်လာမလဲ” ဆိုတာပါ။ Managed service တစ်ခုက server maintenance ကို လျှော့ပေးနိုင်ပေမယ့် provider-specific limitation တွေ ရှိလာနိုင်ပါတယ်။ Distributed system က scale နဲ့ reliability တချို့ကို ကောင်းစေနိုင်ပေမယ့် network failure နဲ့ consistency လို ပြဿနာအသစ်တွေကို ယူလာနိုင်ပါတယ်။
 
-Then ask the opposite: **What does this tool make harder?** Every abstraction moves complexity rather than deleting it. A managed service may remove server maintenance but add provider-specific constraints. A distributed system may improve availability while introducing network failure and consistency concerns.
-
-The real engineering question is not “Is this technology good?” It is “For this problem, is the complexity this technology introduces worth the problem it removes?”
+ဒါကြောင့် technology ကို ကောင်းတယ်၊ မကောင်းဘူးလို့ အလွယ်တကူ မဆုံးဖြတ်သင့်ပါဘူး။ ဒီ problem အတွက် ဒီ complexity ကို ထည့်ရတာ တန်ရဲ့လားဆိုတာပဲ အရေးကြီးပါတယ်။
