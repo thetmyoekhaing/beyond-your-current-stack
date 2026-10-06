@@ -39,7 +39,7 @@ Project ဘယ်လို mature ဖြစ်လာလဲဆိုတာ ကြ
 
 လို့ အရင်မေးကြည့်ပါ။ ကိုယ့် problem ကို တစ်ယောက်ယောက်က ဖြေရှင်းပြီးသားဖြစ်နိုင်ပါတယ်။
 
-## Deeper: Read History, Not Just Current Code
+##
 
 Current source tells you what exists. History can tell you why.
 
