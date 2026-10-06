@@ -35,20 +35,12 @@ Project က မအောင်မြင်လည်း learning ရနိုင�
 
 ##
 
-When concepts are learned separately, they can remain disconnected. A project forces them to interact. A tiny service can make HTTP, authentication, database design, errors, logging, deployment, and testing become parts of one system.
+Concept တွေကို သီးခြားစီဖတ်ရင် တစ်ခုနဲ့တစ်ခု ချိတ်မိဖို့ခက်တတ်ပါတယ်။ Project တစ်ခု build လုပ်လိုက်တဲ့အခါ အဲဒီ concept တွေကို တစ်နေရာတည်းမှာ အလုပ်လုပ်အောင် ချိတ်ရပါတယ်။ Tiny service တစ်ခုတောင် HTTP, authentication, database, error handling, logging, deployment နဲ့ testing တွေကို တစ်ခုတည်းသော system အဖြစ် တွေ့စေပါတယ်။
 
-Choose a project that is small enough to finish, unfamiliar enough to create questions, concrete enough to run, and constrained enough to prevent endless scope.
+ဒါကြောင့် learning project က အရမ်းကြီးပြီး impressive ဖြစ်ဖို့ မလိုပါဘူး။ ကိုယ့်အတွက် နည်းနည်းမရင်းနှီးတဲ့အရာ ဖြစ်ရမယ်၊ run လို့ရရမယ်၊ scope က မထိန်းနိုင်အောင် မကြီးရဘူး၊ ပြီးအောင်လုပ်လို့ရရမယ်။
 
-Instead of “learn distributed systems,” build a tiny producer/consumer application. Instead of “learn observability,” instrument one service and follow one request. Instead of “learn Linux,” run a small service and inspect its process, network socket, logs, and resource usage.
+Distributed systems ကို သင်ချင်ရင် “distributed systems ကို လေ့လာမယ်” လို့ပဲ မထားဘဲ producer နဲ့ consumer ပါတဲ့ service သေးသေးတစ်ခု build လုပ်ကြည့်နိုင်ပါတယ်။ Observability ကို သင်ချင်ရင် service တစ်ခုကို instrument လုပ်ပြီး request တစ်ခုကို အစကနေအဆုံး trace လုပ်ကြည့်နိုင်ပါတယ်။ Linux ကို သင်ချင်ရင် service တစ်ခု run ထားပြီး process, network socket, log နဲ့ resource usage ကို ကိုယ်တိုင်ကြည့်နိုင်ပါတယ်။
 
-### Finish with a postmortem
+ပြီးသွားတဲ့အခါ postmortem သေးသေးလေး ရေးကြည့်ပါ။ “ဘာဖြစ်မယ်လို့ထင်ခဲ့လဲ”, “တကယ်ဘာဖြစ်ခဲ့လဲ”, “အဲဒီနောက် ကိုယ့်အမြင်မှာ ဘာပြောင်းသွားလဲ” ဆိုတာ သုံးချက်လောက် ရေးထားရင် project က မေ့သွားတဲ့ experiment တစ်ခုမဟုတ်တော့ဘဲ နောက်တစ်ခါပြန်အသုံးချလို့ရတဲ့ knowledge ဖြစ်လာပါတယ်။
 
-Write three lines:
-
-**I expected:** what you thought would happen.
-
-**I observed:** what actually happened.
-
-**I learned:** what changed in your mental model.
-
-The project may never become a product. That is fine. The real output is becoming more comfortable entering unfamiliar territory, investigating, building, and finishing.
+Project ရဲ့ အဓိကတန်ဖိုးက project ကိုယ်တိုင်မဟုတ်ပါဘူး။ မရင်းနှီးတဲ့နေရာကို ဝင်၊ မသိတာတွေ့၊ ရှာ၊ build လုပ်၊ ပျက်၊ ပြန်ပြင်ပြီး အဆုံးသတ်နိုင်တဲ့ ability က ပိုတန်ဖိုးရှိပါတယ်။ ဒီနေ့သုံးနေတဲ့ technology တွေ ပြောင်းသွားရင်တောင် အဲဒီ ability က ဆက်ရှိနေမှာပါ။
