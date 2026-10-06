@@ -31,7 +31,7 @@ Service တစ်ခုတည်းရှိနေပြီး Kubernetes သု
 
 Technology အသစ်ကို သိထားတာနဲ့ technology အသစ်တိုင်းကို သုံးရမယ်ဆိုတာ မတူပါဘူး။ Engineering judgment ဆိုတာလည်း ဒီလို trade-off တွေကို နားလည်ပြီး ဆုံးဖြတ်နိုင်ခြင်းပါ။
 
-## Deeper: There Is No Universal Best Stack
+##
 
 Technology choices depend on workload, team knowledge, ecosystem maturity, operational cost, deployment environment, performance, reliability, and maintenance horizon. A technically excellent tool can still be the wrong choice for a particular team.
 
