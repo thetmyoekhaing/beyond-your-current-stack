@@ -39,7 +39,7 @@ Source code အကုန်မဖတ်ပါနဲ့။ File တစ်ဖိ�
 
 ဒီလို investigation တစ်ခုက တစ်ခါတလေ ၁၀ မိနစ်ပဲ ကြာနိုင်ပါတယ်။ မစုံစမ်းဘဲ ကိုယ်တိုင် တစ်ပတ်လောက် မှားပြီး build လုပ်တာထက် အများကြီးသက်သာပါတယ်။
 
-## Deeper: Investigation Is an Engineering Skill
+##
 
 Experienced developers are not people who never get stuck. They are often people who are better at turning “I'm stuck” into useful questions.
 
