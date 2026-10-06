@@ -26,3 +26,15 @@ Tool တစ်ခုကို တွေ့တိုင်း မေးလို�
 - ဒီ tool ထည့်လိုက်ရင် complexity ဘယ်လောက်တိုးသွားမလဲ?
 
 Slide ထဲက **“two you almost never need on day one”** ဆိုတာကလည်း အစကတည်းက architecture ထဲကို tool အများကြီး ထည့်ဖို့မလိုဘူးဆိုတဲ့ point ကို ထောက်ပြတာပါ။
+
+## Deeper: Tools Encode Trade-offs
+
+A technology is usually a bundle of decisions. A queue can give you asynchronous processing while introducing retries, ordering, duplicate delivery, or dead-letter handling. A cache can reduce latency while creating another consistency problem. A database gives durable state while introducing migrations, indexes, backups, transactions, and operational work.
+
+So learn both the capability and the cost.
+
+A useful question is: **What became difficult before this tool existed?** A CDN makes global content delivery easier. A load balancer makes traffic distribution easier. CI makes repeatable validation and delivery easier.
+
+Then ask the opposite: **What does this tool make harder?** Every abstraction moves complexity rather than deleting it. A managed service may remove server maintenance but add provider-specific constraints. A distributed system may improve availability while introducing network failure and consistency concerns.
+
+The real engineering question is not “Is this technology good?” It is “For this problem, is the complexity this technology introduces worth the problem it removes?”
