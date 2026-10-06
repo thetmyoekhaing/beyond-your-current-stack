@@ -25,7 +25,7 @@ Pull Request တစ်ခုကို ရွေးပြီး ဘာပြေ�
 
 Open source project ထဲကို contribution မလုပ်နိုင်သေးလည်း သင်ယူလို့ရပါတယ်။ အကောင်းဆုံးအစကတော့ **ကိုယ်နေ့တိုင်းသုံးနေတဲ့ repo** တစ်ခုပါ။ သုံးနေပြီးသားဆိုတော့ မေးစရာမေးခွန်းတွေက ကိုယ့်မှာ ရှိပြီးသားဖြစ်လို့ပါ။
 
-## Deeper: Real Software Has History
+##
 
 When you read software written by someone else, you are observing decisions made under real constraints. You may find compatibility code for old users, tests for bugs that happened years ago, awkward interfaces that are actually public contracts, and optimizations justified by benchmarks.
 
