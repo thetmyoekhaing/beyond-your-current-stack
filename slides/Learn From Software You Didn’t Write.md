@@ -24,3 +24,15 @@ Pull Request တစ်ခုကို ရွေးပြီး ဘာပြေ�
 - Maintainers တွေအတွက် တကယ်အရေးကြီးတာ ဘာလဲ
 
 Open source project ထဲကို contribution မလုပ်နိုင်သေးလည်း သင်ယူလို့ရပါတယ်။ အကောင်းဆုံးအစကတော့ **ကိုယ်နေ့တိုင်းသုံးနေတဲ့ repo** တစ်ခုပါ။ သုံးနေပြီးသားဆိုတော့ မေးစရာမေးခွန်းတွေက ကိုယ့်မှာ ရှိပြီးသားဖြစ်လို့ပါ။
+
+## Deeper: Real Software Has History
+
+When you read software written by someone else, you are observing decisions made under real constraints. You may find compatibility code for old users, tests for bugs that happened years ago, awkward interfaces that are actually public contracts, and optimizations justified by benchmarks.
+
+Do not judge too quickly. Instead of seeing duplicated code and immediately calling it bad architecture, ask why it might exist. Maybe abstraction would make the code harder to understand. Maybe stability matters more than elegance.
+
+### Read for questions, not completion
+
+Pick one question: How does this request get handled? Where is authentication checked? How is a retry implemented? Where is a transaction handled? Then follow the code until you can answer that question.
+
+Source code becomes much easier to read when it is an investigation rather than a book you must finish.
