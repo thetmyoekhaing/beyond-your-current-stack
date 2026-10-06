@@ -18,3 +18,15 @@ Level 3 လောက်နဲ့တင် job posting တစ်ခုဖတ်�
 ## Learning ကို အလုပ်မဖြစ်အောင် မလုပ်မိဖို့
 
 Tool တစ်ခုတွေ့တိုင်း “ဒါကိုလည်း လေ့လာရမယ်” ဆိုပြီး course တစ်ခု၊ book တစ်ခု၊ roadmap တစ်ခု ထပ်မစပါနဲ့။ တကယ်လိုလာတဲ့အချိန်မှာ rung တစ်ဆင့်ချင်း တက်သွားလို့ရပါတယ်။
+
+## Deeper: Learning Depth Should Follow Value
+
+Not every technology deserves the same learning investment. A tool you use every day, a tool you may use once a year, and a tool relevant only to a niche problem should not receive the same amount of study.
+
+Breadth gives you routing information. If you recognize distributed tracing as the idea of following one request across multiple services, you already know what to search, what documentation to read, and what problem to connect it to.
+
+### Depth should be earned
+
+Repeated contact is a good trigger for deeper study. If a concept keeps appearing in your work, you repeatedly debug the same class of problem, or you are about to make an architectural decision involving it, deeper knowledge will probably pay off.
+
+**Awareness → real problem → focused study → practical use → deeper understanding.**
