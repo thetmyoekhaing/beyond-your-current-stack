@@ -38,3 +38,19 @@ Source code အကုန်မဖတ်ပါနဲ့။ File တစ်ဖိ�
 - Why do people actually use this?
 
 ဒီလို investigation တစ်ခုက တစ်ခါတလေ ၁၀ မိနစ်ပဲ ကြာနိုင်ပါတယ်။ မစုံစမ်းဘဲ ကိုယ်တိုင် တစ်ပတ်လောက် မှားပြီး build လုပ်တာထက် အများကြီးသက်သာပါတယ်။
+
+## Deeper: Investigation Is an Engineering Skill
+
+Experienced developers are not people who never get stuck. They are often people who are better at turning “I'm stuck” into useful questions.
+
+Ask: What exactly failed? What changed? Can I reproduce it? Is it local or external? What does the official documentation say? Has someone reported the same behavior? Can I reduce it to a tiny example?
+
+### Prefer primary evidence
+
+A useful investigation order is often official documentation → source code → issue tracker → pull requests/discussions → reputable technical articles → community posts. Community knowledge can be excellent, but primary sources help verify what the software actually promises.
+
+### Make experiments tiny
+
+If you are evaluating a queue, send one message. If you are evaluating a database feature, create one small database. If you are evaluating observability, trace one request. The experiment should answer one question.
+
+That turns “learn technology X” into “can X solve this specific problem under these conditions?”
