@@ -21,12 +21,10 @@ Tool တစ်ခုတွေ့တိုင်း “ဒါကိုလည်�
 
 ##
 
-Not every technology deserves the same learning investment. A tool you use every day, a tool you may use once a year, and a tool relevant only to a niche problem should not receive the same amount of study.
+Technology အားလုံးကို တူညီတဲ့အနက်နဲ့ လေ့လာဖို့ မလိုပါဘူး။ နေ့တိုင်းသုံးရမယ့် tool တစ်ခု၊ တစ်နှစ်မှာတစ်ခါလောက်သာ တွေ့ရမယ့် tool တစ်ခုနဲ့ ကိုယ့်အလုပ်နဲ့ မဆိုင်သလောက်ဖြစ်နေတဲ့ tool တစ်ခုကို အချိန်တူတူ ပေးနေတာက အကျိုးရှိမှာမဟုတ်ပါဘူး။
 
-Breadth gives you routing information. If you recognize distributed tracing as the idea of following one request across multiple services, you already know what to search, what documentation to read, and what problem to connect it to.
+ဒီနေရာမှာ breadth က အရေးကြီးပါတယ်။ Technology တစ်ခုရဲ့ နာမည်နဲ့ အကြမ်းဖျင်း role ကို သိထားရုံနဲ့ ကိုယ်မသိသေးတဲ့အချိန် ဘယ်နေရာကို သွားရှာရမလဲ သိလာပါတယ်။ Distributed tracing ဆိုတာ request တစ်ခုကို service တော်တော်များများဖြတ်သွားတဲ့အခါ လိုက်ကြည့်တာလို့ သိထားရင် အဲဒီကနေ documentation ကို ဆက်ရှာနိုင်ပါတယ်။
 
-### Depth should be earned
+တကယ်နက်နက်လေ့လာဖို့ကတော့ အကြောင်းပြချက်ရှိလာမှ လုပ်တာပိုကောင်းပါတယ်။ ကိုယ့်အလုပ်မှာ အဲဒီ concept က ထပ်ခါထပ်ခါပေါ်လာတာ၊ တူညီတဲ့ problem ကို ခဏခဏ debug လုပ်နေရတာ၊ ဒါမှမဟုတ် architecture decision တစ်ခုကို အဲဒီ technology နဲ့ ချရတော့မယ့်အချိန်တွေက deeper learning လုပ်ဖို့ အချိန်ရောက်ပြီဆိုတဲ့ signal တွေပါ။
 
-Repeated contact is a good trigger for deeper study. If a concept keeps appearing in your work, you repeatedly debug the same class of problem, or you are about to make an architectural decision involving it, deeper knowledge will probably pay off.
-
-**Awareness → real problem → focused study → practical use → deeper understanding.**
+ဒီလိုဆို learning က “အကုန်သင်ပြီးမှ project လုပ်မယ်” မဟုတ်တော့ဘဲ **သိထား → problem တွေ့ → လိုတာရှာ → သုံးကြည့် → ပိုနက်နက်နားလည်** ဆိုတဲ့ cycle ဖြစ်လာပါတယ်။
