@@ -29,3 +29,21 @@ User ကို ချက်ချင်း response ပြန်ပေးပြ�
 **Complexity should have a reason.**
 
 Architecture ထဲကို box တစ်ခု ထပ်ထည့်တိုင်း “ဘာကြောင့်?” ဆိုတဲ့ sentence တစ်ကြောင်း ရှိသင့်ပါတယ်။ Problem မရှိဘဲ complexity ထည့်တာက engineering sophistication မဟုတ်ပါဘူး။
+
+## Deeper: Architecture Is a Response to Constraints
+
+Architecture discussions should start with constraints rather than diagrams: latency, traffic volume, reliability, data size, deployment frequency, team size, security, cost, and failure tolerance.
+
+The same application can reasonably have different architectures at different scales because its constraints are different.
+
+### Avoid scale theatre
+
+Designing for an imaginary future is a common source of unnecessary complexity. A team with ten users does not automatically need ten services, Kubernetes, multiple replicas, queues, and caches.
+
+The better approach is to design for the problem you actually have while leaving sensible paths for growth.
+
+### Measure before you add
+
+“It's slow” is not enough. Where is it slow? Is the bottleneck CPU, database I/O, network latency, serialization, an external API, or lock contention? Measurements such as p95 latency, throughput, error rate, resource utilization, and queue depth turn architecture arguments into engineering arguments.
+
+**Architecture should be explainable in terms of requirements and evidence.**
