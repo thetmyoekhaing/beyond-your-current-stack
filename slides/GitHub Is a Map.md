@@ -41,10 +41,10 @@ Project ဘယ်လို mature ဖြစ်လာလဲဆိုတာ ကြ
 
 ##
 
-Current source tells you what exists. History can tell you why.
+GitHub ကို code သိမ်းတဲ့နေရာတစ်ခုလိုပဲ သုံးမယ်ဆိုရင် ရနိုင်တဲ့ information တော်တော်များများကို လွတ်သွားနိုင်ပါတယ်။ Repository တစ်ခုရဲ့ current code က အခုဘာရှိလဲဆိုတာ ပြပါတယ်။ Commit history, issue, pull request နဲ့ discussion တွေကတော့ ဘာကြောင့် ဒီလိုဖြစ်လာတာလဲဆိုတာ ပြပေးနိုင်ပါတယ်။
 
-A strange abstraction may exist because of an old production bug. A duplicated section may be intentional because two paths have different constraints. A compatibility layer may exist because removing it would break users.
+ထူးဆန်းနေတဲ့ abstraction တစ်ခုက production bug တစ်ခုကို ဖြေရှင်းဖို့ ထည့်ထားတာ ဖြစ်နိုင်ပါတယ်။ Code နှစ်နေရာမှာ တူနေတာက မကောင်းတဲ့ design မဟုတ်ဘဲ နှစ်ခုရဲ့ constraint မတူလို့ intentionally ခွဲထားတာလည်း ဖြစ်နိုင်ပါတယ်။ Compatibility code တစ်ခုက old users တွေအတွက် မဖျက်နိုင်သေးတာ ဖြစ်နိုင်ပါတယ်။
 
-A useful repository reading order is: **README → tree → entry point → one feature → tests → issue → PR → history.** You are not trying to understand the whole city; you are learning how to navigate it.
+Repository အသစ်တစ်ခုကို ဖတ်မယ်ဆိုရင် README ကနေ စပြီး folder tree ကိုကြည့်၊ entry point တစ်ခုကိုရှာ၊ feature တစ်ခုကို အဆုံးထိလိုက်ကြည့်၊ tests ကိုဖတ်၊ ပြီးရင် issue နဲ့ pull request တွေကို ကြည့်လို့ရပါတယ်။ Repository တစ်ခုလုံးကို ခေါင်းထဲထည့်ဖို့ မလိုပါဘူး။ မေးခွန်းတစ်ခုနဲ့ ဝင်ပြီး အဖြေကို code ထဲမှာ လိုက်ရှာတာ ပိုလွယ်ပါတယ်။
 
-Large repositories teach scale, boundaries, ownership, and coordination. Small repositories teach implementation details and complete code paths. Both are useful because a repository is a case study written in code.
+Large repository တွေက scale, boundary, ownership နဲ့ collaboration ကို သင်ပေးပါတယ်။ Small repository တွေက implementation detail နဲ့ code path တစ်ခုလုံးကို နားလည်ဖို့ ကူညီပါတယ်။ နှစ်မျိုးလုံးက တန်ဖိုးရှိပါတယ်။ Repository တစ်ခုဟာ တခြား developer တွေ ချမှတ်ခဲ့တဲ့ engineering decision တွေကို code အနေနဲ့ ဖတ်နိုင်တဲ့ case study တစ်ခုလိုပါပဲ။
