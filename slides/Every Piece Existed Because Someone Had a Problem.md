@@ -27,7 +27,7 @@ Tool တစ်ခုကို တွေ့တိုင်း မေးလို�
 
 Slide ထဲက **“two you almost never need on day one”** ဆိုတာကလည်း အစကတည်းက architecture ထဲကို tool အများကြီး ထည့်ဖို့မလိုဘူးဆိုတဲ့ point ကို ထောက်ပြတာပါ။
 
-## Deeper: Tools Encode Trade-offs
+##
 
 A technology is usually a bundle of decisions. A queue can give you asynchronous processing while introducing retries, ordering, duplicate delivery, or dead-letter handling. A cache can reduce latency while creating another consistency problem. A database gives durable state while introducing migrations, indexes, backups, transactions, and operational work.
 
