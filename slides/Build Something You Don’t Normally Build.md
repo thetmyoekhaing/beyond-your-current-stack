@@ -33,7 +33,7 @@ Project က မအောင်မြင်လည်း learning ရနိုင�
 
 အဓိကက technology အားလုံးကို သိလာဖို့မဟုတ်ပါဘူး။ **ကိုယ့်လက်ရှိ stack ရဲ့အပြင်ကို သွားကြည့်ဖို့ မကြောက်တော့တာ** ဖြစ်ပါတယ်။
 
-## Deeper: Projects Compress Knowledge
+##
 
 When concepts are learned separately, they can remain disconnected. A project forces them to interact. A tiny service can make HTTP, authentication, database design, errors, logging, deployment, and testing become parts of one system.
 
