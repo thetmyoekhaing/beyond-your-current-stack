@@ -27,12 +27,10 @@ Open source project ထဲကို contribution မလုပ်နိုင်�
 
 ##
 
-When you read software written by someone else, you are observing decisions made under real constraints. You may find compatibility code for old users, tests for bugs that happened years ago, awkward interfaces that are actually public contracts, and optimizations justified by benchmarks.
+ကိုယ်မရေးထားတဲ့ software ကို ဖတ်တဲ့အခါ တခြား developer တွေက real-world constraint တွေအောက်မှာ ဘယ်လို decision ချခဲ့လဲဆိုတာ မြင်ရပါတယ်။ Compatibility code, bug တစ်ခုကြောင့် ရှိနေတဲ့ test, public API ဖြစ်လို့ မပြောင်းနိုင်တဲ့ interface, benchmark ကြောင့် ထည့်ထားတဲ့ optimization စတာတွေကို တွေ့နိုင်ပါတယ်။
 
-Do not judge too quickly. Instead of seeing duplicated code and immediately calling it bad architecture, ask why it might exist. Maybe abstraction would make the code harder to understand. Maybe stability matters more than elegance.
+ဒါကြောင့် code တစ်ခုကို ပထမဆုံးမြင်တာနဲ့ “ဒီဟာက bad architecture” လို့ မဆုံးဖြတ်သင့်ပါဘူး။ Duplicate ဖြစ်နေတာကို တွေ့ရင်တောင် “ဘာကြောင့် ဒီလိုထားထားတာလဲ” လို့ အရင်မေးကြည့်ပါ။ Abstraction ထည့်လိုက်ရင် code ပိုရှုပ်သွားနိုင်ပါတယ်။ Stability ကို elegance ထက် ဦးစားပေးထားတာလည်း ဖြစ်နိုင်ပါတယ်။
 
-### Read for questions, not completion
+Source code ဖတ်တဲ့အခါ အကုန်နားလည်ဖို့ မကြိုးစားပါနဲ့။ မေးခွန်းတစ်ခုရွေးပါ။ “ဒီ request က ဘယ်ကနေဝင်ပြီး ဘယ်ကိုသွားတာလဲ”, “authentication ကို ဘယ်မှာစစ်တာလဲ”, “retry ကို ဘယ်လိုလုပ်ထားတာလဲ” ဆိုပြီး တစ်ခုကိုပဲ လိုက်ကြည့်ပါ။ အဖြေတစ်ခုရသွားရင် နောက်မေးခွန်းတစ်ခု ဆက်မေးလို့ရပါတယ်။
 
-Pick one question: How does this request get handled? Where is authentication checked? How is a retry implemented? Where is a transaction handled? Then follow the code until you can answer that question.
-
-Source code becomes much easier to read when it is an investigation rather than a book you must finish.
+ဒီလိုဖတ်ရင် source code က စာအုပ်ကြီးတစ်အုပ်လို မခံစားရတော့ဘဲ စုံစမ်းလေ့လာရတဲ့နေရာတစ်ခု ဖြစ်လာပါတယ်။
