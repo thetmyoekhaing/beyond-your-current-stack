@@ -33,12 +33,10 @@ Technology အသစ်ကို သိထားတာနဲ့ technology အ�
 
 ##
 
-Technology choices depend on workload, team knowledge, ecosystem maturity, operational cost, deployment environment, performance, reliability, and maintenance horizon. A technically excellent tool can still be the wrong choice for a particular team.
+Technology ရွေးတဲ့အခါ “အကောင်းဆုံး tool” ဆိုတာ တစ်ခုတည်း မရှိပါဘူး။ Workload, team ရဲ့အတွေ့အကြုံ, ecosystem, operational cost, deployment environment, performance, reliability နဲ့ project ရဲ့သက်တမ်းပေါ်မူတည်ပြီး အဖြေက ပြောင်းနိုင်ပါတယ်။
 
-Every abstraction has a cost. A framework can make common cases easy while hiding behavior you may need to understand during debugging. A managed service removes infrastructure work while potentially adding provider-specific constraints.
+Framework တစ်ခုက development ကို မြန်စေနိုင်ပါတယ်။ Managed database က server ထိန်းသိမ်းရတာကို လျှော့ပေးနိုင်ပါတယ်။ Container platform က deployment ကို စံချိန်တင်ပေးနိုင်ပါတယ်။ ဒါပေမယ့် abstraction အောက်မှာ ဘာဖြစ်နေတယ်ဆိုတာ မသိရင် failure ဖြစ်တဲ့အချိန် debug လုပ်ရခက်နိုင်ပါတယ်။ ဒါကြောင့် foundation ကို သိထားတာက tool အများကြီးသုံးတတ်တာထက် တစ်ခါတလေ ပိုအသုံးဝင်ပါတယ်။
 
-### Prefer reversible decisions early
+Project အသစ်စတဲ့အချိန်မှာ ပြန်ပြောင်းရလွယ်တဲ့ decision တွေကို ရွေးတာကောင်းပါတယ်။ User နည်းနေသေးရင် simple database တစ်ခုနဲ့ စနိုင်ပါတယ်။ Background job နည်းနည်းပဲရှိရင် worker တစ်ခုနဲ့ စနိုင်ပါတယ်။ Deployment ကို server တစ်လုံးနဲ့ စလို့ရနိုင်ပါတယ်။ တကယ်လိုအပ်လာမှ specialized infrastructure ထည့်ပါ။
 
-Young projects benefit from decisions that are easy to change. A simple database, basic worker, or single-machine deployment can be a perfectly good starting point. As evidence accumulates, specialized infrastructure can be introduced.
-
-This is not anti-technology. It is **pro-evidence**. Use powerful tools when the problem gives you a reason to pay their cost.
+ဒါဟာ technology မသုံးချင်တာ မဟုတ်ပါဘူး။ Technology ရဲ့ cost ကို problem က တောင်းဆိုတဲ့အချိန်မှ ပေးချင်တာပါ။
