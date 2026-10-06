@@ -28,7 +28,7 @@ Editor, terminal, GitHub, feature flags, rollouts, documentation စတာတွ
 
 “သိတယ်” ဆိုတာ tutorial အကုန်ဖတ်ပြီးသွားတာ မဟုတ်ပါဘူး။ “ဒီလို problem ရှိရင် ဒီလို tool category တစ်ခု ရှိနိုင်တယ်” လို့ ချိတ်ဆက်စဉ်းစားနိုင်တာကို ဆိုလိုပါတယ်။
 
-## Deeper: The Layers Are Connected
+##
 
 The categories on this slide are not isolated boxes. A simple user action can pass through UI, API, authentication, application logic, database, cache, background processing, storage, observability, and deployment. That is why broad awareness matters even when you specialize.
 
