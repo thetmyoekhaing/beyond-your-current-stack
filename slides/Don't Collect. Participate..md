@@ -30,14 +30,10 @@ Start here: `up-for-grabs.net`
 
 ##
 
-The biggest difference between consuming information and participating is feedback.
+Information စုတာနဲ့ learning ဖြစ်သွားတာ မတူပါဘူး။ Course တွေ save ထားတာ၊ article တွေ bookmark လုပ်ထားတာ၊ tutorial တွေ တစ်ဝက်တစ်ပျက်ကြည့်ထားတာက သိချင်စိတ်ကို ပြည့်စေနိုင်ပေမယ့် ability တကယ်တိုးလာပြီလို့တော့ မဆိုနိုင်ပါဘူး။
 
-A video can explain how a queue works. Running one teaches you about configuration, networking, serialization, retries, and shutdown behavior. A blog can explain open-source contribution. A small PR teaches repository conventions, tests, reviews, and maintainer expectations.
+တကယ်လုပ်ကြည့်တဲ့အခါ feedback ရပါတယ်။ Queue အကြောင်း video ကြည့်ရင် concept ကို သိနိုင်ပါတယ်။ ကိုယ်တိုင် run ကြည့်ရင် configuration, networking, serialization, retry, shutdown စတာတွေက တကယ်ပြဿနာဖြစ်လာတာကို မြင်ရပါတယ်။ Open source contribution အကြောင်းဖတ်ရုံနဲ့ မတူဘဲ PR တစ်ခုတင်ကြည့်ရင် repository ရဲ့ convention, test, review comment နဲ့ maintainer တွေရဲ့ expectation ကို တကယ်တွေ့ရပါတယ်။
 
-### Turn consumption into a chain
+ဒါကြောင့် learning ကို **Read → Run → Change → Break → Fix → Explain** ဆိုတဲ့ cycle ထဲ ထည့်ကြည့်လို့ရပါတယ်။ အရာအားလုံးကို ဒီလိုလုပ်စရာမလိုပါဘူး။ ကိုယ်တကယ်စိတ်ဝင်စားတဲ့အရာတွေမှာတော့ passive learning ကနေ active learning ကို ရွှေ့တာက အများကြီးကွာပါတယ်။
 
-**Read → Run → Change → Break → Fix → Explain.**
-
-You do not need this process for every topic, but for things you care about, moving from passive consumption to active experimentation makes the learning much more durable.
-
-There is also a learning-collection trap: new courses, bookmarks, and roadmaps feel productive because they reduce uncertainty. The cure is to make one resource produce an artifact: a running demo, patch, benchmark, bug report, note, or finished project.
+တစ်ခါတလေ course အသစ်တစ်ခုရှာတာ၊ roadmap အသစ်တစ်ခု save တာ၊ bookmark အသစ်တစ်ခုထည့်တာတွေက အလုပ်လုပ်နေသလို ခံစားရစေပါတယ်။ ဒါပေမယ့် တကယ်အရေးကြီးတာက resource တစ်ခုကို artifact တစ်ခုအဖြစ် ပြောင်းနိုင်ဖို့ပါ။ Demo တစ်ခု၊ benchmark တစ်ခု၊ bug report တစ်ခု၊ note တစ်ခု၊ patch တစ်ခု၊ ဒါမှမဟုတ် project တစ်ခုဖြစ်လာရင် learning က ကိုယ့်ဆီမှာ ကျန်ခဲ့ပါတယ်။
