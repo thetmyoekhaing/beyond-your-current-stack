@@ -38,3 +38,13 @@ Project ဘယ်လို mature ဖြစ်လာလဲဆိုတာ ကြ
 > “Who has already built this?”
 
 လို့ အရင်မေးကြည့်ပါ။ ကိုယ့် problem ကို တစ်ယောက်ယောက်က ဖြေရှင်းပြီးသားဖြစ်နိုင်ပါတယ်။
+
+## Deeper: Read History, Not Just Current Code
+
+Current source tells you what exists. History can tell you why.
+
+A strange abstraction may exist because of an old production bug. A duplicated section may be intentional because two paths have different constraints. A compatibility layer may exist because removing it would break users.
+
+A useful repository reading order is: **README → tree → entry point → one feature → tests → issue → PR → history.** You are not trying to understand the whole city; you are learning how to navigate it.
+
+Large repositories teach scale, boundaries, ownership, and coordination. Small repositories teach implementation details and complete code paths. Both are useful because a repository is a case study written in code.
