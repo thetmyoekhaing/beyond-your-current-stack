@@ -16,7 +16,7 @@ Software ecosystem က အရမ်းကျယ်ပါတယ်။ ဒါပ�
 
 Developer တစ်ယောက်ရဲ့ skill ကို “သိတဲ့ framework အရေအတွက်” နဲ့ပဲ တိုင်းတာမယ်ဆိုရင် ecosystem ကြီးလာလေလေ နောက်ကျကျန်ခဲ့သလို ခံစားရနိုင်ပါတယ်။ ဒီ talk က အဲဒီ mindset ကို ပြောင်းပြီး **အရာတွေကို map လုပ်နိုင်ခြင်း၊ problem နဲ့ tool ကို ချိတ်ဆက်နိုင်ခြင်း၊ မသိတာကို စုံစမ်းနိုင်ခြင်း** ကို အရေးကြီးတယ်လို့ ပြောထားတာပါ။
 
-## Deeper: Awareness Is a Technical Skill
+##
 
 The practical value of knowing a technology is not always the ability to write it from memory. Often it is the ability to recognize the kind of problem it belongs to.
 
@@ -33,7 +33,7 @@ This changes how you approach job descriptions, architecture discussions, docume
 
 The product name is replaceable. The problem category is the durable knowledge.
 
-## Deeper: Your Stack Is a Local Optimum
+##
 
 A familiar stack becomes efficient because you have already paid its learning cost. That is useful, but it can also make the familiar solution feel like the only solution.
 
