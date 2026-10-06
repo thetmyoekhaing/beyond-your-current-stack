@@ -30,7 +30,7 @@ User ကို ချက်ချင်း response ပြန်ပေးပြ�
 
 Architecture ထဲကို box တစ်ခု ထပ်ထည့်တိုင်း “ဘာကြောင့်?” ဆိုတဲ့ sentence တစ်ကြောင်း ရှိသင့်ပါတယ်။ Problem မရှိဘဲ complexity ထည့်တာက engineering sophistication မဟုတ်ပါဘူး။
 
-## Deeper: Architecture Is a Response to Constraints
+##
 
 Architecture discussions should start with constraints rather than diagrams: latency, traffic volume, reliability, data size, deployment frequency, team size, security, cost, and failure tolerance.
 
