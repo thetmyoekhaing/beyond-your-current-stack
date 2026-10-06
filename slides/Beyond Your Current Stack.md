@@ -18,43 +18,14 @@ Developer တစ်ယောက်ရဲ့ skill ကို “သိတဲ့ f
 
 ##
 
-The practical value of knowing a technology is not always the ability to write it from memory. Often it is the ability to recognize the kind of problem it belongs to.
+Technology တစ်ခုကို သိတယ်ဆိုတာ syntax ကို အလွတ်ရတာထက် အဲဒီ technology က ဘယ်လိုပြဿနာမျိုးကို ဖြေရှင်းပေးတာလဲဆိုတာ နားလည်ထားနိုင်တာက ပိုအသုံးဝင်ပါတယ်။
 
-Think about technical vocabulary as a network. If you know what a cache, queue, reverse proxy, object store, tracing system, message broker, container, and relational database are for, you can understand a system diagram even when several individual products are unfamiliar.
+ဥပမာ system diagram တစ်ခုမှာ cache, queue, reverse proxy, object storage, message broker, container, relational database ဆိုတာတွေ တွေ့လာရင် product တစ်ခုချင်းစီကို မသုံးဖူးသေးရင်တောင် သူတို့ရဲ့ role ကို ခန့်မှန်းနားလည်နိုင်ပါတယ်။ Redis ကို မသိသေးရင်တောင် cache ဆိုတာ ဘာအတွက်လဲ သိထားရင် စပြီးလေ့လာဖို့နေရာရှိနေပါပြီ။ Kubernetes ကို မသုံးဖူးသေးရင်တောင် container orchestration ဆိုတာ ဘာပြဿနာကို ဖြေရှင်းတာလဲ သိထားရင် architecture တစ်ခုကို ဖတ်ရတာ မျက်စိလည်တော့မှာ မဟုတ်ပါဘူး။
 
-This changes how you approach job descriptions, architecture discussions, documentation, and unfamiliar repositories. Instead of seeing a wall of product names, you can translate them into concepts:
+ဒီလိုနဲ့ job description တစ်ခု၊ architecture diagram တစ်ခု၊ GitHub repo တစ်ခုကို ကြည့်တဲ့အခါ technology name တွေကို သီးခြားစကားလုံးတွေအဖြစ် မမြင်တော့ဘဲ problem အမျိုးအစားတွေနဲ့ ချိတ်ပြီး မြင်လာနိုင်ပါတယ်။ Product name တွေက ပြောင်းသွားနိုင်ပေမယ့် problem category တွေက ပိုပြီးတည်ငြိမ်ပါတယ်။
 
-- Redis → caching or fast in-memory data
-- Kafka → durable event streaming and messaging
-- Nginx → HTTP proxying and traffic handling
-- S3 → object storage
-- OpenTelemetry → telemetry instrumentation and collection
-- Kubernetes → container orchestration
+နောက်တစ်ခုက ကိုယ်အကျွမ်းတဝင်ရှိတဲ့ stack ကို အမြဲသုံးချင်လာတာပါ။ Flutter သိတဲ့သူက Flutter နဲ့ပဲ ဖြေရှင်းချင်တတ်သလို Python သိတဲ့သူက Python နဲ့ပဲ ဖြေရှင်းချင်တတ်ပါတယ်။ ဒါဟာ မမှားပါဘူး။ အကျွမ်းတဝင်ရှိတာက မြန်မြန်အလုပ်လုပ်နိုင်စေပါတယ်။ ဒါပေမယ့် problem ပြောင်းသွားတဲ့အခါ solution ကိုပါ ပြန်စဉ်းစားနိုင်ဖို့လိုပါတယ်။
 
-The product name is replaceable. The problem category is the durable knowledge.
+ဒါကြောင့် stack ကို စွန့်ပစ်ဖို့ မလိုပါဘူး။ ကိုယ့် stack က ecosystem တစ်ခုလုံးမဟုတ်ဘူး၊ ကိုယ်ရွေးထားတဲ့ toolset တစ်ခုသာ ဖြစ်တယ်ဆိုတာ သိထားဖို့ပါ။
 
-##
-
-A familiar stack becomes efficient because you have already paid its learning cost. That is useful, but it can also make the familiar solution feel like the only solution.
-
-A Flutter developer may naturally reach for Flutter. A Python developer may naturally reach for Python. A PostgreSQL user may naturally put every piece of data into PostgreSQL.
-
-That is not necessarily wrong. The important skill is being able to step outside that default when the problem changes.
-
-The goal is not to abandon your stack. It is to understand that your stack is a **choice**, not a law of nature.
-
-## A Better Definition of Being Senior
-
-Technical maturity is not measured only by how many tools someone can use.
-
-A mature engineer can say:
-
-- “I know what this is.”
-- “I know roughly why it exists.”
-- “I know when I would investigate it.”
-- “I know when I would not use it.”
-- “I know where to start when I need deeper knowledge.”
-
-That is the mindset this presentation is trying to build.
-
-The ecosystem will keep expanding. A map and a reliable way to explore it scale better than an ever-growing memorization list.
+နောက်ဆုံးမှာ technical maturity ဆိုတာ technology အများကြီးသုံးတတ်တာတစ်ခုတည်း မဟုတ်ပါဘူး။ “ဒါဘာလဲ”, “ဘာကြောင့်ရှိတာလဲ”, “ဘယ်အချိန်မှာ လေ့လာသင့်လဲ”, “ဘယ်အချိန်မှာ မလိုအပ်ဘူးလဲ” ဆိုတာတွေကို ခွဲခြားစဉ်းစားနိုင်လာတာပါ။ Ecosystem က ဆက်ပြီးကြီးလာမှာဖြစ်လို့ အရာအားလုံးကို မှတ်ထားဖို့ထက် map တစ်ခုရှိပြီး မသိတဲ့နေရာကို ဘယ်လိုသွားရှာရမလဲ သိထားတာက ပိုပြီးရေရှည်အသုံးဝင်ပါတယ်။
