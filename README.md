@@ -40,9 +40,7 @@ You need to know:
 
 The original presentation is available as a PDF:
 
-**[Download the PDF](Beyond-Your-Current-Stack.pdf)**
-
-The PowerPoint source is kept under [assets/](assets/).
+**[Download the PDF](assets/Beyond-Your-Current-Stack.pdf)**
 
 ## About the slide notes
 
